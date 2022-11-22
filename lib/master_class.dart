@@ -39,9 +39,25 @@ class _MasterClassState extends State<MasterClass> {
           ],
         ),
       ),
-      body: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: const [TextField()],
+      body: ListView(
+        children: const [
+          ListTile(
+            title: Text("Yeter Ki Sonu İyi Bitsin "),
+            subtitle: Text("William Shakespeare"),
+            leading: Icon(Icons.arrow_forward_ios_rounded), //başına ikon
+          ),
+          ListTile(
+            title: Text("Gurur ve Önyargı"),
+            subtitle: Text("Jane Austen"),
+            trailing: Icon(Icons.auto_awesome), //sonuna ikon
+          ),
+          ListTile(
+            title: Text("Milena'ya Mektuplar"),
+            subtitle: Text("Franz Kafka"),
+            leading: Icon(Icons.water_damage_rounded), //başına ikon
+            trailing: Icon(Icons.audiotrack), //sonuna ikon
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
