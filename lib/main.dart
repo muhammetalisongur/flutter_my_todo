@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'login.dart';
+import 'master_class.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Login(),
+      home: const MasterClass(),
     );
   }
 }
