@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'master_class.dart';
+import 'package:todo/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MasterClass(),
+      home: const Login(),
     );
   }
 }
